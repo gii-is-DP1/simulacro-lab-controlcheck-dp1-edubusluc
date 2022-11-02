@@ -42,7 +42,7 @@ public class Test10 {
     public void configureMock(){
         ProductType pt=new ProductType();
         pt.setName("Food");
-        Mockito.when(productService.save(any(Product.class))).thenReturn(null);
+        //Mockito.when(productService.save(any(Product.class))).thenReturn(null);
         Mockito.when(productService.getProductType("Food")).thenReturn(pt);
         List<ProductType> pts=new ArrayList<ProductType>();
         pts.add(pt);

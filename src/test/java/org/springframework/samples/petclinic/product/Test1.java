@@ -31,6 +31,7 @@ public class Test1 {
     public void repositoryExists(){
         assertNotNull(pr,"The repository was not injected into the tests, its autowired value was null");
     }
+    
 
     
     public void repositoryContainsMethod(){
